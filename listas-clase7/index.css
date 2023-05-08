@@ -1,0 +1,128 @@
+.contenedor {
+    display: grid;
+    grid-template-rows:repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+  
+.div-1 {
+    background-color: aqua;
+    
+}
+.div-2 {
+    background-color: gold;
+}
+    
+.div-3 {
+    background-color: green;
+    
+}
+.div-4 {
+    background-color: black;
+   
+}
+.div-5 {
+    background-color: blue;
+    
+}
+.div-6 {
+    background-color: blueviolet;
+   
+}
+.div-7 {
+    background-color: chocolate;
+ 
+}
+.div-8 {
+    background-color: purple;
+   
+}
+.div-9 {
+    background-color: maroon;
+    
+    
+}
+.template-body{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+@media (min-width: 320px){
+    .template-body{
+        grid-template-columns: 3fr 1fr;
+    }
+
+
+    .div-1 {
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .div-4 {
+        text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .div-7 {text-align: left;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+
+}
+
+    @media (max-width: 321px) and (min-width: 768px){
+        .template-body{
+            grid-template-columns: 3fr 1fr;
+        }
+    
+    
+        .div-2 {
+            display: none;
+            display: block;
+            grid-column-start: 3;
+            grid-column-end: 6;
+        }
+        .div-5 {
+            display: none;
+            display: block;
+            grid-column-start: 3;
+            grid-column-end: 6;
+        }
+        .div-8 {
+            display: none;
+            display: block;
+            grid-column-start: 3;
+            grid-column-end: 6;
+        }
+       
+
+    }
+    @media (max-width: 769px){
+            .template-body{
+                grid-template-columns: 3fr 1fr;
+            }
+        
+        
+            .div-3 {
+                display: none;
+                display: block;
+                grid-column-start: 7;
+                grid-column-end: 9;
+            }
+            .div-6 {
+                display: none;
+                display: block;
+                grid-column-start: 7;
+                grid-column-end: 9;
+            }
+            .div-9 {
+                display: none;
+                display: block;
+                grid-column-start: 7;
+                grid-column-end: 9;
+            }
+        
+    }
