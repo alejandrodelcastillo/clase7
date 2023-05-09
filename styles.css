@@ -1,0 +1,83 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1rf);
+    grid-template-rows: repeat(3, 1rf);
+    gap: 10px;
+    width: 600px;
+    height: 300px;
+    padding: 100px;
+   
+    
+   
+   
+}
+.div-1{
+    box-sizing: border-box;    
+    background-color: blueviolet;
+    color: black;
+    border-radius: 3px;
+}
+.div-2{
+    box-sizing: border-box;    
+    background-color: blue;
+    color: black;
+    border-radius: 3px;
+    display: none;
+}
+.div-3{
+    box-sizing: border-box;    
+    background-color: chartreuse;
+    color: black;
+    border-radius: 3px;
+    display: none;
+}
+.div-4{
+    box-sizing: border-box;    
+    background-color: gold;
+    color: black;
+    border-radius: 3px;
+}
+.div-5{
+    box-sizing: border-box;    
+    background-color: crimson;
+    color: black;
+    border-radius: 3px;
+    display: none;
+}
+.div-6{
+    box-sizing: border-box;    
+    background-color: lightblue;
+    color: black;
+    border-radius: 3px;
+    display: none;
+}
+.div-7{
+    box-sizing: border-box;    
+    background-color: magenta;
+    color: black;
+    border-radius: 3px;
+}
+.div-8{
+    box-sizing: border-box;    
+    background-color:maroon;
+    color: black;
+    border-radius: 3px;
+    display: none;
+}
+.div-9{
+    box-sizing: border-box;    
+    background-color: orangered;
+    color: black;
+    border-radius: 3px;
+    display: none;
+}
+
+@media (max-width:320px){
+
+}
+@media (min-width:321px) and (max-width:768px){
+    
+}
+@media (min-width: 769px){
+
+}
